@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+hallo
+=======
+Testfile
+>>>>>>> origin/master
