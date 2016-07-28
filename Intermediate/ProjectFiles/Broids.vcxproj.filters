@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Broids.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{590EA7A7-8D9F-44E4-A89F-A57E8280F74A}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Broids.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\BroidsEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{A1088049-5629-4CCE-BC60-BAE94913E1E8}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Broids">
+			<UniqueIdentifier>{5A6CA5A4-3AAA-4835-AB5D-2FA401BA71E7}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Broids\Broids.Build.cs">
+			<Filter>Source\Broids</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Broids\Broids.cpp">
+			<Filter>Source\Broids</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Broids\Broids.h">
+			<Filter>Source\Broids</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Broids\BroidsGameMode.cpp">
+			<Filter>Source\Broids</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Broids\BroidsGameMode.h">
+			<Filter>Source\Broids</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
